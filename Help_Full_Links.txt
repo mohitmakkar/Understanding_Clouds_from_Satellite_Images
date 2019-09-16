@@ -27,7 +27,7 @@ Create New Kaggle account and username.
 --EDA for reference
 https://www.kaggle.com/aleksandradeis/understanding-clouds-eda	
 	
-
+https://www.kaggle.com/ekhtiar/eda-find-me-in-the-clouds
 	
 	Some background
 	The challenge is to segment satellite images into one of four classes: Sugar, Flower, Fish and Gravel. 
@@ -35,3 +35,19 @@ https://www.kaggle.com/aleksandradeis/understanding-clouds-eda
 	The reason is that they reflect a lot of sunlight back into space, thereby cooling our planet, 
 		while only contributing marginally to the greenhouse effect. 
 	This means that it’s really important to figure out how these clouds will change as our planet warms.
+	
+----------------------------------------------------------------------------
+Beginner Links (Lets Start with this yogita)
+	https://machinelearningmastery.com/how-to-load-and-manipulate-images-for-deep-learning-in-python-with-pil-pillow/
+	https://machinelearningmastery.com/how-to-manually-scale-image-pixel-data-for-deep-learning/
+	https://towardsdatascience.com/wtf-is-image-classification-8e78a8235acb	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
