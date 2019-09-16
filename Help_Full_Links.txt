@@ -1,0 +1,37 @@
+Create New Kaggle account and username. 
+ -my kaggle username is also mohitmakkar
+ 
+-Clone Github to Your system
+	link :https://github.com/mohitmakkar/Understanding_Clouds_from_Satellite_Images.git
+	
+-Read the following about github
+		https://github.com/mohitmakkar/Understanding_Clouds_from_Satellite_Images/settings/branch_protection_rules/new
+		https://help.github.com/en/articles/defining-the-mergeability-of-pull-requests
+		https://developer.github.com/v3/repos/statuses/
+	
+	
+-- Check out Colabs
+		(Free GPU for a limted time and Large data)
+	
+	
+--How to check which area is resposible for prediction.
+--https://towardsdatascience.com/justifying-image-classification-what-pixels-were-used-to-decide-2962e7e7391f?gi=ab913b7e0b57
+
+	---Code & Google Colab link for code
+		https://github.com/lemay-ai/funWithShap/blob/master/shapOnVGG16.ipynb
+
+		
+	https://colab.research.google.com/github/dcshapiro/funWithShap/blob/master/shapOnVGG16.ipynb#scrollTo=hZmJlPnKxPQB
+	
+	
+--EDA for reference
+https://www.kaggle.com/aleksandradeis/understanding-clouds-eda	
+	
+
+	
+	Some background
+	The challenge is to segment satellite images into one of four classes: Sugar, Flower, Fish and Gravel. 
+	These clouds look benign compared to big thunderstorms but, in fact, for the Earth’s climate they play a huge role. 
+	The reason is that they reflect a lot of sunlight back into space, thereby cooling our planet, 
+		while only contributing marginally to the greenhouse effect. 
+	This means that it’s really important to figure out how these clouds will change as our planet warms.
