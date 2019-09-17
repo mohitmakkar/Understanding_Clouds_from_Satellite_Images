@@ -24,7 +24,7 @@ Create New Kaggle account and username.
 	https://colab.research.google.com/github/dcshapiro/funWithShap/blob/master/shapOnVGG16.ipynb#scrollTo=hZmJlPnKxPQB
 	
 	
---EDA for reference
+--EDA for reference (We should do it ourself)
 https://www.kaggle.com/aleksandradeis/understanding-clouds-eda	
 	
 https://www.kaggle.com/ekhtiar/eda-find-me-in-the-clouds
@@ -42,7 +42,12 @@ Beginner Links (Lets Start with this yogita)
 	https://machinelearningmastery.com/how-to-manually-scale-image-pixel-data-for-deep-learning/
 	https://towardsdatascience.com/wtf-is-image-classification-8e78a8235acb	
 	
+	Using Open CV (Difficult than Pillow & pyplot but more recommmended for computer vision )
+	https://www.geeksforgeeks.org/reading-image-opencv-using-python/
 	
+	
+	(Three Methods to Read Image)
+	https://www.quora.com/How-do-I-read-an-image-in-Python
 	
 	
 	
