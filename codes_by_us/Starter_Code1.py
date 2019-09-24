@@ -48,7 +48,6 @@ print(train_images.shape)
 
 #%%
 #Creating Dictionaries for image_pixel & Image_Class
-
 train_df.dropna(inplace=True) #Dropping Labels not found in image
 class_label_list = ["Gravel","Sugar","Fish","Flower"]
 
@@ -69,18 +68,31 @@ for idx, row in train_df.iterrows():
         img_label_dict[img_name] = [img_label_encoded]
 
 #%%
+#img_pixel_dict['0011165.jpg']
+#%%
+#Converting Encoded Pixel In Input Data to a mask 
+def encoded_pixel_to_mask(mask_pixels,mask_flag=True):   
+    img_length=1400
+    img_height=2100
+    
+    mask_pixels_array = np.array([int(each_pixel) for each_pixel in mask_pixels.split(' ')])
+    mask_pixels_array = mask_pixels_array.reshape(-1,2)
+    
+    img = np.zeros(img_length*img_height, dtype=np.uint8)    
+    if(mask_flag):    
+        for start, length in mask_pixels_array:
+            start -= 1
+            end = start + length
+            img[start:end] = 255
+    img = img.reshape(img_height,img_length)
+    img = img.T
+    return img
 
+#%%
+#img=encoded_pixel_to_mask(mask_pixels=img_pixel_dict['0011165.jpg'][0])
+#display_img_as_gray(img)
 
-
-
-
-
-
-
-
-
-
-
+#%%
 
 #
 #
